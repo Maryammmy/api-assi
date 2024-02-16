@@ -1,0 +1,134 @@
+<html>
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Weather</title>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/all.min.css">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        
+        <nav class="navbar navbar-expand-lg " id="navv">
+            <div class="container-fluid  d-flex justify-content-around align-items-center w-75 ">
+              <div class="p-3"><img src="images/logo@2x.png" alt="" height="40px"></div>
+              <a class="navbar-brand div-after" href="#">Weather</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse " id="navbarNav">
+                <ul class="navbar-nav  ms-auto">
+                  <li class="nav-item p-3 ">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item p-3">
+                    <a class="nav-link hov" href="#">News</a>
+                  </li>
+                  <li class="nav-item p-3">
+                    <a class="nav-link hov" href="#">Live cameras</a>
+                  </li>
+                  <li class="nav-item p-3">
+                    <a class="nav-link hov" href="#">Photos</a>
+                  </li>
+                  <li class="nav-item p-3">
+                    <a class="nav-link hov" href="#">Contact</a>
+                  </li>
+                
+                </ul>
+              </div>
+            </div>
+          </nav>
+        
+          <section id="home">
+              <div class="background">
+                <div class="p-5 position-relative">
+                <input id="searchinput" type="text" class="form-control  m-auto rounded-5 p-3" placeholder="Find your location...">
+                <div class="but">
+                  <button class="btn rounded-pill" id="btn">Find</button>
+              </div>
+            </div>
+         <div class="container w-75">
+          <div class="row justify-content-center">
+            <div class="col-md-4 forecast_today m-0 p-0 pb-4">
+                <div class=" forecast_header d-flex justify-content-between w-100 shadow-lg pt-1">
+                 <div><span id="forecast_day" class="p-2">Friday</span></div>
+                 <div>
+                  <span id="forecast_number">19</span>
+                  <span id="forecast_month" class="p-2">January</span>
+                </div>
+                </div>
+              <div id="forecast_location" class=" p-2 ps-3">cairo</div>
+              <div class="forecast-content d-flex justify-content-between p-2 ps-3">
+              <div id="forecast_temp" class="temp">
+                21<sup>o</sup>C</div>
+                <div class="pt-4 mt-3"><img id="img_icon_temp" src="images/116.webp" alt="" width="90px"></div>
+            </div>
+            <div id="forecast_situation" class="ps-3">Partly cloudy</div>
+            <div class="forecast_content_2 d-flex justify-content-start">
+              <div class="p-3"> 
+                <span><img src="images/icon-umberella.png" alt="" id="img_umberella"></span>
+                <span id="weather_umberella">20%</span>
+              </div>
+              <div class="p-3">
+                <span><img src="images/icon-wind.png" alt="" id="img_wind"></span>
+                <span id="weather_wind">18km/h</span>
+              </div>
+              <div class="p-3">
+                <span><img src="images/icon-compass.png" alt="" id="img_compass"></span>
+                <span id="weather_compass">East</span>
+              </div>
+            </div>
+
+
+
+            </div>
+            <div class="col-md-4 forecast forecolor pb-4">
+              <div class="forecast_days text-center shadow-lg pt-1">Sunday</div>
+              <div class="d-flex justify-content-center align-items-center h-25 pt-5 mt-3"><img src="images/115.webp" alt="" class="forecast_imgs"></div>
+              <div class="forecast_temps text-center pt-4 mt-2">26.7<sup>o</sup>C</div>
+              <div class="forecast_temps_super text-center">17.3<sup>o</sup></div>
+              <div class="forecast_situations text-center">Partly cloudy</div>
+            </div>
+            <div class="col-md-4 forecast pb-4">
+              <div class="forecast_days text-center shadow-lg pt-1">Monday</div>
+              <div class="d-flex justify-content-center align-items-center h-25 pt-5 mt-3"><img src="images/113.webp" alt="" class="forecast_imgs"></div>
+              <div class="forecast_temps text-center pt-4 mt-2">21.5<sup>o</sup>C</div>
+              <div class="forecast_temps_super text-center">13.9<sup>o</sup></div>
+              <div class="forecast_situations text-center">Sunny</div>
+            </div>
+
+
+          </div>
+         </div>
+        
+            </div>
+          
+          </section>
+          <section>
+            <div class="container w-75">
+            <div class="d-flex justify-content-around mt-5">
+          <input type="text" class="w-50 rounded-5 p-3 mb-3 form-control" placeholder="Find your email to subscribe...">
+           <div class="d-flex">
+            <div class="icon d-flex justify-content-center align-items-center m-1"><a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook-f"></i></a></div>
+            <div class="icon d-flex justify-content-center align-items-center m-1"><a href="https://twitter.com/" target="_blank"><i class="fa-brands fa-twitter"></i></a></div>
+            <div class="icon d-flex justify-content-center align-items-center m-1"><a href="https://www.google.com/" target="_blank"><i class="fa-brands fa-google"></i></a></div>
+            <div class="icon d-flex justify-content-center align-items-center m-1"><a href="https://www.pinterest.com/" target="_blank"><i class="fa-brands fa-pinterest"></i></a></div>
+           </div>
+          </div>
+          <div class="ps-5 ms-5 footer mb-5">
+            Copyright 2014 Company name. Designed by Themezy. All rights reserved
+            </div>
+        </div>
+        
+          </section>
+       
+          
+          
+        
+        
+
+
+
+        <script src="js/main.js"></script>
+    </body>
+</html>

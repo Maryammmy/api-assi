@@ -1,0 +1,122 @@
+#navv{
+    height: 150px;
+    background-color: #1e202b;
+}
+body{
+    background-color:#323544;
+}
+a{
+    color: white !important;
+    
+}
+.navbar-nav .nav-link.active{
+    color: #009ad8 !important;
+    border: 2px solid #009ad8;
+    padding: 5px 25px;
+    border-radius: 20px;
+}
+.hov:hover{
+    color: #009ad8 !important;
+    border: 2px solid #009ad8;
+    padding: 5px 25px;
+    border-radius: 20px;
+}
+.background{
+    background-image: url(../images/banner.png);
+    background-position: center center;
+    background-size: cover;
+    height: 45vh;
+}
+#home{
+    height: 75vh;
+    background-color: #1e202b;
+}
+input{
+    background-color:  #1e202b !important;
+    width: 80% !important;
+    color: white !important;
+}
+input::placeholder{
+    color: #bfc1c8 !important;
+}
+#btn{
+    padding: 12px 40px;
+    color: white;
+    background-color: #009ad8;
+    
+   
+}
+.but{
+    position: absolute;
+     top: 52px;
+     right:197px ;
+}
+.temp{
+    font-size: 90px;
+    font-weight: 700;
+    color: white;
+}
+.forecast_today{
+    background-color: #323544cd;
+    color: #bfc1c8;
+}
+.forecast_header{
+    height: 37px;
+    font-size: 18px;
+}
+.forecast{
+    background-color:#323544cd;
+    color:#bfc1c8;
+}
+#forecast_location{
+    font-size: 20px;
+    
+}
+#forecast_situation{
+    color: #009ad8;
+}
+.forecolor{
+    background-color: #1e202bb4;
+}
+.forecast_days{
+    font-size: 18px;
+    height: 37px;
+}
+.forecast_temps{
+    font-size: 25px;
+    color: white;
+    font-weight: 600;
+}
+.forecast_situations{
+    color: #009ad8;
+}
+.div-after{
+    position: relative;
+}
+.div-after::after{
+    content:'tagline goes here' ;
+    position: absolute;
+    left: 0;
+    top: 35px;
+    font-size: 12px;
+    font-weight: 100;
+}
+.icon{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color:  #1e202b;
+}
+.icon i{
+    color: #009ad8;
+}
+.icon:hover{
+    background-color:#009ad8 ;
+}
+.icon:hover i{
+    color: white;
+}
+.footer{
+color: #bfc1c8;
+}
+
